@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Database (CRUD Application)</title>
+    <link rel="icon"  href="./Developer activity-bro.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!--container start -->
+<div class="container">
+    <!--nav start -->
+    <nav>
+        <h1>Employee Database</h1>
+    </nav>
+    <!--nav end -->
+    <!--container side start-->
+    <div class="container-side">
+    <!--left side start -->
+    <div class="left-main-con">
+        <div class="left">
+            <div class="left-con">
+                <div class="left-con-div">
+                    <label for="name">Name </label>
+                    <p><input type="text" placeholder="Enter Name" name="name" id="name"></p>
+                </div>
+                <div class="left-con-div">
+                    <label for="address">Address </label>
+                    <p><input type="text" placeholder="Enter Address" name="address" id="address"></p>
+                </div> 
+                <div class="left-con-div">
+                    <label for="email">Email </label>
+                    <p><input type="email" placeholder="Enter Email" name="email" id="email"></p>
+                </div>
+                <div class="left-con-div">
+                    <label for="position">Position </label>
+                    <p><input type="text" placeholder="Enter Contact" name="position" id="position"></p>
+                </div>
+           <button id="submit" onclick="AddData()">Insert Data</button>
+           <button id="update" onclick="AddData()">Update</button>
+            </div>
+           
+         </div>
+         
+        <img src="./Developer activity-bro.svg" alt="">
+
+    </div>
+    <!--left side end--> 
+
+
+
+     <!--right side start-->
+     <div class="right">
+           <table id="crudTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Email</th>
+                    <th>Position</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+           </table> 
+     </div>
+     <!--right side end-->
+
+
+
+
+    </div>
+    <!--container side end-->
+    
+</div>
+<!--container end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
